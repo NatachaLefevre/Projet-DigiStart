@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mc Cronald</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js"></script>
+</head>
+
+<body class="background">
+  
+   <aside id="panier">
+     <nav>
+      <img class="picto"
+      src="Photos/panier.png">
+      <h3>Votre commande</h3> 
+     </nav>
+      <p id="message">0 produit commandé</p>
+    
+   </aside>
+
+   <h1>Bienvenue chez Mc Cronald !</h1>
+
+      <!--Le centrage du texte doit être fait en priorité avec CSS-->
+
+      <div class="accroche">
+     <p>Le meilleur (et seul) restaurant de la rue vous ouvre ses portes !<br>
+      Commandez nos hamburgers, accompagnés de frites maison et de salades du jardin.</p>
+   </div>
+
+    <div class="box">
+
+      <div class="hamburger">
+        <img src="Photos/hamburger1.jpg">
+         <h2>Coma Burger / 8 €</h2>
+         <p>Des kilos de calories pour le plaisir de votre aorte.</p>
+         <button class="click" onclick="addSingleProduct(0)">COMMANDER</button>
+        </div>
+
+      <div class="hamburger">
+        <img src="Photos/hamburger2.jpg">
+        <h2>Bacon Burger / 9 €</h2>
+        <p>Un hamburger créé par le peintre Francis Bacon.</p>
+        <button class="click" onclick="addSingleProduct(1)">COMMANDER</button>
+      </div>
+
+      <div class="hamburger">
+        <img src="Photos/hamburger3.jpg">
+         <h2>Nightmare Burger / 10 €</h2>
+         <p>De la viande, du gluten, et des oignons.</p>
+         <button class="click" onclick="addSingleProduct(2)">COMMANDER</button>
+      </div>
+
+      <div class="hamburger">
+        <img src="Photos/hamburger4.jpg">
+        <h2>Knife Burger / 11 €</h2>
+        <p>Un hamburger avec un couteau dedans. Attention, le couteau n'est pas comestible.</p>
+        <button class="click" onclick="addSingleProduct(3)">COMMANDER</button>
+      </div>
+
+    </div>
+
+        <!--La balise center est obsolète, à éviter. Le style est à modifier de préférence sur css-->
+
+    <footer>Natacha Lefèvre - Formation Digistart - Konexio</footer>
+
+</body>
+
+</html>
